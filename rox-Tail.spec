@@ -14,7 +14,7 @@ URL:		http://www.kerofin.demon.co.uk/rox/utils.html#tail
 BuildRequires:	rox-CLib-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define   _appsdir  %{_libdir}/ROX-apps
+%define		_appsdir	%{_libdir}/ROX-apps
 
 %description
 This program displays the contents of a file in a read-only text
