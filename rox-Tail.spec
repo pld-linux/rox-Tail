@@ -8,6 +8,7 @@ Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.kerofin.demon.co.uk/rox/%{_name}-%{version}.tgz
+# Source0-md5:	9c281dd5432e89bdcbe8843192aa18ee
 Patch0:		%{name}-paths-fix.patch
 URL:		http://www.kerofin.demon.co.uk/rox/utils.html#tail
 BuildRequires:	rox-CLib-devel
