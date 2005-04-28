@@ -1,0 +1,18 @@
+diff -urN Tail.new/libdir Tail/libdir
+--- Tail.new/libdir	2005-04-28 15:29:14.032263384 +0200
++++ Tail/libdir	2005-04-28 15:37:43.945744752 +0200
+@@ -5,12 +5,12 @@
+ # $Id$
+ 
+ if [ x"$LIBDIRPATH" = x ]; then
+-  LIBDIRPATH="$HOME/lib:/usr/local/lib:/usr/lib"
++  LIBDIRPATH="$HOME/lib:/usr/local/lib:/usr/lib:/usr/lib/ROX-apps"
+   export LIBDIRPATH
+ fi
+ 
+ if [ x"$APPDIRPATH" = x ]; then
+-  APPDIRPATH="$HOME/Apps:/usr/local/apps:/usr/apps"
++  APPDIRPATH="$HOME/Apps:/usr/local/apps:/usr/apps:/usr/lib/ROX-apps"
+   export APPDIRPATH
+ fi
+ 
