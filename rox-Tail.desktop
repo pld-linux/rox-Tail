@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ROX-Tail
+Comment=ROX-Tail display the contents of file
+Comment[pl]=ROX-Tail wyświetla zawartość pliku
+Exec=/usr/lib/ROX-apps/Tail/AppRun
+Icon=rox-Tail.png
+Terminal=false
+Type=Application
+Categories=Utility;
+Encoding=UTF-8
+# vi: encoding=utf-8
