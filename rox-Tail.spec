@@ -18,6 +18,7 @@ URL:		http://www.kerofin.demon.co.uk/rox/tail.html
 BuildRequires:	autoconf
 BuildRequires:	gtk+2-devel
 BuildRequires:	rox-CLib2-devel >= 2.1.4
+Requires:	rox >= 2.2.0-2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_appsdir	%{_libdir}/ROX-apps
@@ -62,7 +63,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Help/{Changes,Versions}
-%attr(755,root,root) %dir %{_appsdir}
 %attr(755,root,root) %{_appsdir}/%{_name}/*[Rr]un
 %attr(755,root,root) %{_appsdir}/%{_name}/%{_platform}
 %{_appsdir}/%{_name}/.DirIcon
