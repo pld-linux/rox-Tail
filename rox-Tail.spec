@@ -1,7 +1,7 @@
 %define _name Tail
 %define _platform %(echo `uname -s`-`uname -m|sed 's/i.86/ix86/'`)
 Summary:	Display the contents of file, updating as the file is updated
-Summary(pl):	ROX-Tail wy¶wietla zawarto¶æ pliku, aktualizuj±c j± gdy plik siê zmieni
+Summary(pl.UTF-8):   ROX-Tail wyÅ›wietla zawartoÅ›Ä‡ pliku, aktualizujÄ…c jÄ… gdy plik siÄ™ zmieni
 Name:		rox-%{_name}
 Version:	2.1.2
 Release:	1
@@ -28,9 +28,9 @@ This program displays the contents of a file in a read-only text
 window, updating as the file is updated. It is designed to do the same
 function as the "tail -f" command.
 
-%description -l pl
-Ten program wy¶wietla zawarto¶æ pliku, w oknie "tylko-do-odczytu",
-aktualizuj±c j± gdy plik siê zmieni. Program pe³ni t± sam± funkcjê co
+%description -l pl.UTF-8
+Ten program wyÅ›wietla zawartoÅ›Ä‡ pliku, w oknie "tylko-do-odczytu",
+aktualizujÄ…c jÄ… gdy plik siÄ™ zmieni. Program peÅ‚ni tÄ… samÄ… funkcjÄ™ co
 komenda "tail -f".
 
 %prep
