@@ -1,7 +1,7 @@
 %define _name Tail
 %define _platform %(echo `uname -s`-`uname -m|sed 's/i.86/ix86/'`)
 Summary:	Display the contents of file, updating as the file is updated
-Summary(pl.UTF-8):   ROX-Tail wyświetla zawartość pliku, aktualizując ją gdy plik się zmieni
+Summary(pl.UTF-8):	ROX-Tail wyświetla zawartość pliku, aktualizując ją gdy plik się zmieni
 Name:		rox-%{_name}
 Version:	2.1.2
 Release:	1
